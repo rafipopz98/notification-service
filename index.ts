@@ -23,9 +23,9 @@ app.use((err: any, req: Request, res: Response, next: NextFunction) => {
 //all the test manuall testing
 
 // TestSpam();
-TestUnsubscribe()
+// TestUnsubscribe()
 // TestRetryNotification();
-// TestMaxRetryNotification
+// TestMaxRetryNotification()
 
 app.listen(PORT, () => {
   console.log(`listening to ${PORT}`);

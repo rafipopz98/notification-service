@@ -85,6 +85,7 @@ class NotificationQueueService {
   }
 
   public handleFailure(notification: Notification) {
+    console.log("retry",notification.retryCount)
     if (notification.retryCount < MAX_RETRIES) {
       console.log("Retrying to send the notification");
       const retryInterval = RETRY_INTERVALS[notification.retryCount];
