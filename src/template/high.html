@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Template</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #333;
+        text-align: center;
+      }
+      .urgency {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .high {
+        color: #f44336;
+      }
+      .medium {
+        color: #ff9800;
+      }
+      .low {
+        color: #4caf50;
+      }
+      .content {
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+      }
+      img {
+        width: 100px;
+        height: 50px;
+        object-fit: cover;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Production Down</h1>
+      <h1>Urgent Meet Notification</h1>
+
+      <div class="urgency">
+        <img
+          src="https://1000logos.net/wp-content/uploads/2021/06/Zoom-Logo.png"
+          alt="ZOOM Icon"
+          class="icon"
+          title="Click to join the meeting fast"
+        />
+        <h1 class="high">High</h1>
+      </div>
+
+      <div class="content">
+        <p style="color: red; font-size: 20px">
+          This is an urgent notification regarding a high priority meeting.
+          <br /><br />
+          Your last push to the Production environment resulted in a site
+          crash.<br /><br />
+          Please join the meeting as soon as possible to discuss the incident. <br><br>
+          Please Click the <span style="color:green;">ZOOM LOGO</span> to join the meeting
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
